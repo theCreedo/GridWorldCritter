@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project>
+	<settings>
+		<label>critter code</label>
+		<root_path>\</root_path>
+		<output_path>\</output_path>
+		<source_path>\</source_path>
+		<jdkprofile_ref>JDK version 1.7.0</jdkprofile_ref>
+		<compiler_ref>&lt;Default&gt;</compiler_ref>
+		<ant_ref/>
+	</settings>
+	<ant_events/>
+	<run_items>
+		<item run="ChameleonRunner"/>
+		<item run="CrabRunner"/>
+		<item run="CritterRunner"/>
+		<item run="FlowerChildRunner"/>
+		<item run="SuperChameleonRunner"/>
+		<item run="MagnetCritterRunner"/>
+		<item run="JumpingCrabRunner"/>
+		<item run="GeodudeCritterRunner"/>
+		<item run="PokemonCritterRunner"/>
+		<item run="SpinnerCritterRunner"/>
+	</run_items>
+	<runtimes>
+		<runtime>
+			<label>&lt;Default&gt;</label>
+			<application_ref>&lt;Default&gt;</application_ref>
+			<applet_ref/>
+			<debugger_ref/>
+			<param/>
+			<run>PokemonCritterRunner</run>
+			<verify>true</verify>
+		</runtime>
+	</runtimes>
+	<libraries/>
+	<files>
+		<include>
+			<fileitem>
+				<path>ChameleonCritter.java</path>
+			</fileitem>
+			<fileitem>
+				<path>ChameleonRunner.java</path>
+			</fileitem>
+			<fileitem>
+				<path>CrabCritter.java</path>
+			</fileitem>
+			<fileitem>
+				<path>CrabRunner.java</path>
+			</fileitem>
+			<fileitem>
+				<path>CritterRunner.java</path>
+			</fileitem>
+			<fileitem>
+				<path>FlowerChild.java</path>
+			</fileitem>
+			<fileitem>
+				<path>FlowerChildRunner.java</path>
+			</fileitem>
+			<fileitem>
+				<path>GeodudeCritter.java</path>
+			</fileitem>
+			<fileitem>
+				<path>GeodudeCritterRunner.java</path>
+			</fileitem>
+			<fileitem>
+				<path>GolemCritter.java</path>
+			</fileitem>
+			<fileitem>
+				<path>GolemCritterRunner.java</path>
+			</fileitem>
+			<fileitem>
+				<path>GravelerCritter.java</path>
+			</fileitem>
+			<fileitem>
+				<path>GravelerCritterRunner.java</path>
+			</fileitem>
+			<fileitem>
+				<path>gridworld.jar</path>
+			</fileitem>
+			<fileitem>
+				<path>GUIController.java</path>
+			</fileitem>
+			<fileitem>
+				<path>JumpingCrab.java</path>
+			</fileitem>
+			<fileitem>
+				<path>JumpingCrabRunner.java</path>
+			</fileitem>
+			<fileitem>
+				<path>MagnetCritter.java</path>
+			</fileitem>
+			<fileitem>
+				<path>MagnetCritterRunner.java</path>
+			</fileitem>
+			<fileitem>
+				<path>PokemonCritterRunner.java</path>
+			</fileitem>
+			<fileitem>
+				<path>SpinnerCritter.java</path>
+			</fileitem>
+			<fileitem>
+				<path>SpinnerCritterRunner.java</path>
+			</fileitem>
+			<fileitem>
+				<path>SuperChameleon.java</path>
+			</fileitem>
+			<fileitem>
+				<path>SuperChameleonRunner.java</path>
+			</fileitem>
+		</include>
+	</files>
+	<tasks/>
+</project>
